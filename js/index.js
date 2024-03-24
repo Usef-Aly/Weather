@@ -7,7 +7,7 @@ const cityContainer = document.querySelector(".city-items")
 
 
 const apiKey = "b4f6a7cc6d514448ae7133125232208";
-const baseUrl = `http://api.weatherapi.com/v1/forecast.json`
+const baseUrl = `https://api.weatherapi.com/v1/forecast.json`
 let currentLocation = "cairo";
 const recentCities = JSON.parse(localStorage.getItem("cities")) || []
 
